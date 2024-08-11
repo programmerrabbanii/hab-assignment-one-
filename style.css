@@ -177,3 +177,62 @@ select{
     margin-bottom: 10px;
     margin-left: 82px;
 }
+/* features section end here */
+/* table section start */
+.table{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.table-left-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid rgb(32, 31, 31);
+    padding: 10px 50px;
+  
+}
+.table-btn {
+    text-align: center;
+    margin-top: 19px;
+   
+}
+.table-btn button{
+    border: none;
+    background-color: black;
+    padding: 12px 22px;
+    color: white;
+    border-radius:  10px;
+    text-transform: capitalize;
+}
+.table-left-title h4{
+    font-size: 30px;
+    line-height: 80px;
+}
+.table-left-box small{
+    margin-right: 10px;
+}
+.table-left-box img{
+    width: 40px;
+}
+/* table section end  */
+/* commission section start here */
+.commission{
+    background-color: #CFBAFF;
+    margin-top: 50px;
+    text-align: center;
+    padding: 59px;
+}
+.commission h2{
+    font-size: 56px;
+}
+.commission button{
+    border: none;
+    background-color: black;
+    padding: 12px 23px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
