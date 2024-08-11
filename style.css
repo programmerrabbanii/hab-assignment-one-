@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navBar-center ul {
+    display: flex;
+}
+.navBar-center ul li{
+    list-style: none;
+    margin-right: 10px;
+
+}
+.navBar-center ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: black;
+}
+.navBar-end{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navBar-end button{
+    padding: 15px 34px;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+}
+.nab-btn{
+    background-color: black;
+    color: white;
+}
+.fa-solid{
+    font-size: 30px;
+}
