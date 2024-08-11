@@ -236,3 +236,32 @@ select{
     margin-top: 10px;
     text-transform: capitalize;
 }
+/* commission section end here */
+/* footer section start here */
+.footerr{
+    background-color: black;
+
+}
+.inner-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
+    padding: 40px;
+   
+    color: #ffffff;
+}
+.inner-footer p{
+    margin-bottom: 10px;
+}
+.footer-box h4{
+    font-size: 20px;
+    line-height: 50px;
+
+}
+
+p.footer-pragraph {
+    text-align: center;
+    color: white;
+    padding: 21px;
+}
