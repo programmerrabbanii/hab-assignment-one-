@@ -8,6 +8,10 @@
     align-items: center;
     padding: 20px;
 }
+main{
+    width: 90%;
+    margin: 0 auto;
+}
 .navBar-center ul {
     display: flex;
 }
@@ -39,4 +43,137 @@
 }
 .fa-solid{
     font-size: 30px;
+}
+
+/* navbar section end here */
+/* bannar section start here */
+.bannar{
+    background-image: url(./img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    
+
+    
+}
+
+.ba-inner-con{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #FDE24F;
+  
+    
+}
+.bannar-inner-top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.bannar-top-left button{
+    border: none;
+    background-color: #ECECEC;
+    padding: 10px 130px;
+    text-transform: capitalize;
+
+}
+.bannar-top-rights button{
+    border: none;
+    background-color: #00EBC7
+    ;
+    padding: 10px 30px;
+    border-radius: 23px;
+    text-transform: capitalize;
+}
+select{
+    background-color: #ECECEC;
+    border: none;
+    padding: 8px 23px;
+    text-transform: capitalize;
+
+}
+.ba-inner-con h4{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.btn-bottom{
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.btn-bottom a{
+    border: 1px solid white;
+    padding: 12px 20px;
+    border-radius: 22px;
+    color: white;
+}
+/* bannar section end here */
+/* favorite section start here */
+.fovorite{
+    background-color: #FDE24F;
+    padding: 30px;
+    text-align: center;
+}
+.fovorite span{
+    font-weight: 200;
+}
+/* fovorite section end here */
+/* features section start here */
+.features{
+    margin-top: 50px;
+    
+}
+.features-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.features-box p {
+    margin-top: 20px;
+}
+.features-btn{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.features-box a{
+    line-height: 60px;
+    color: black;
+}
+.features-btn button{
+    padding: 13px 24px ;
+    border: 2px solid black;
+    border-radius: 30px;
+    background: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.features-box h4 {
+    margin-left: 40px;
+    line-height: 45px;
+}
+
+.arrow{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+}
+.arrow-rights{
+    margin-bottom: 10px;
+    margin-left: 82px;
 }
