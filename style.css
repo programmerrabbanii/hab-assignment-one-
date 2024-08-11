@@ -55,10 +55,7 @@ main{
     height: 100vh;
     display: flex;
     align-items: center;
-   
     justify-content: center;
-    
-
     
 }
 
@@ -133,8 +130,8 @@ select{
     
 }
 .features-inner{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 50px;
     text-align: center;
@@ -251,6 +248,9 @@ select{
    
     color: #ffffff;
 }
+.footer-box img{
+    width: 100%;
+}
 .inner-footer p{
     margin-bottom: 10px;
 }
@@ -264,4 +264,127 @@ p.footer-pragraph {
     text-align: center;
     color: white;
     padding: 21px;
+}
+
+.fovorite img{
+    width: 100%;
+}
+/* responsice style */
+
+
+/* sm style style here */
+@media screen and (max-width:576px){
+    .navBar-center ul {
+    
+        display: none;
+    }
+    .navBar-end button{
+        display: none;
+    }
+
+    .ba-inner-con{
+     display: none;
+        
+    }
+
+    .bannar-inner-top{
+       display: none;
+    }
+
+    .features-inner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .arrow-rights{
+      display: none;
+    }
+
+    .table{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .commission h2 {
+        font-size: 30px;
+    }
+
+
+    .inner-footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+       
+        padding: 20px;
+       
+        color: #ffffff;
+    }
+
+   
+   
+}
+
+
+
+/* md style */
+@media screen and (min-width:576px) and (max-width:992px){
+    .navBar-center ul {
+    
+        display: none;
+    }
+
+    .inner-footer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+       
+        padding: 30px;
+       
+        color: #ffffff;
+    }
+
+    
+    select{
+        background-color: #ECECEC;
+        border: none;
+        padding: 8px 23px;
+        text-transform: capitalize;
+    
+    }
+
+    .bannar-inner-top{
+        display: none;
+     }
+
+     .ba-inner-con h4{
+        font-size: 14px;
+    }
+
+    .features-inner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+    }
+    .arrow-rights{
+       display: none;
+    }
+
+    .table{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .commission h2 {
+        font-size: 40px;
+    }
+
 }
